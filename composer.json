@@ -1,0 +1,25 @@
+{
+    "name": "loxopay/loxopay",
+    "type": "library",
+    "description": "Loxopay PHPLib",
+    "keywords": [
+        "payment",
+        "gateway"
+    ],
+    "license": "MIT",
+    "homepage": "https://www.loxopay.ch",
+    "authors": [
+        {
+            "name": "Loxopay",
+            "homepage": "https://www.loxopay.ch"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Loxopay": "lib/"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    }
+}
